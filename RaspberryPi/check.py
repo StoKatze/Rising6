@@ -19,7 +19,7 @@ try:
 			nome = row[0]
 			#print(nome) #Debug
 		cursor.execute("UPDATE studenti SET ultimoAccesso=current_timestamp WHERE pin='" + sys.argv[1] + "';") #Aggiorna l'ultimo login
-		print("Debuggg") #Debug
+		#print("Debuggg") #Debug
 		db.commit() #Applica i cambiamenti al DB
 	else: #Altrimenti lascia il nome come "Err"
 		nome = "Err"

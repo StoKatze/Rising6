@@ -26,5 +26,5 @@ else:
 	processo = subprocess.check_output(['python3', 'send.py', nome]) #Apre il programma che pubblica sul topic di risposta
 	print(processo.decode("utf-8")) #Dovrebbe stampare l'output del processo
 
-db.close(); #Chiude la connessione al DB
-sys.exit(); #Termina l'esecuzione di questo script
+db.close() #Chiude la connessione al DB
+sys.exit() #Termina l'esecuzione di questo script

@@ -37,7 +37,7 @@ Il form della pagina [index.html](Web/index.html) chiamerà lo script php [actio
 ##### E sinceramente cambierei username e password di questo utente se si vuol fare qualcosa di serio.
 * Nome DB: campusArcesso
 * Utente: accesso
-* password: BONO
+* Password: BONO
 * Nome tabella: studenti
 
 #### Campi tabella studenti:
